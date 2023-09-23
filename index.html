@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Burger-a-licious</title>
+<link rel="icon" href="./img/burger-logo.jpeg">
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+<header role='banner'>
+  <h1>Burger-a-licious</h1>
+  <nav>
+    <ol role='navigation'>
+      <li>
+        <a href='#'>Menu</a>
+      </li>
+      <li>
+        <a href='#'>Order Form</a>
+      </li>
+      <li>
+        <a href='#'>Contact</a>
+      </li>
+    </ol>
+    <form role='search'>
+      <input type='search' placeholder='Enter search term here...'>
+      <input type='submit' value='search'>
+    </form>
+  </nav>
+</header>
+
+<main role='main'>
+  <h2>Menu</h2>
+  <p>
+    Choose between these delicious options (only comes in a combo):
+  </p>
+  <ul>
+    <li>Cheese Burger meal $3.50</li>
+    <img src="https://images.immediate.co.uk/production/volatile/sites/2/2020/04/Cheeseburger-74e8cde.jpg?quality=90&webp=true&resize=300,272" alt="Chicken Sandwhich" width="250px" height="auto" alt="Chicken Sandwich">
+    <li>Bacon Burger meal $4.50</li>
+    <img src="https://media.istockphoto.com/id/520215281/photo/bacon-burger.jpg?s=1024x1024&w=is&k=20&c=CDNBvZDZTJl5EwRO5xQZ_UOZ_KUUy5e7aVFE7bjz2ME=" width="250px" height="auto" alt="Bacon Burger">
+    <li>Veggie Burger meal $5.50</li>
+    <img src="https://assets.bonappetit.com/photos/57acae2d1b33404414975121/16:9/w_3631,h_2042,c_limit/ultimate-veggie-burger.jpg" width="250px" height="auto" alt="Veggie Burger">
+  </ul>
+<!-- Add your restaurant order form below -->
+  <form role='order_form'>
+    <h2>Order Form</h2>
+   <!--
+    <input type='search' placeholder='Put Order Form Here'>
+    <input type='submit' value='Order'>
+   --> 
+   
+  <div <label for="Name">Provide your name:</label>
+    <input type='text' name="Your name" placeholder=' '>
+    <br>
+  <div <label for="Address">Provide your address:</label>
+    <input type='text' placeholder="City">
+    <input type='text' placeholder="State">
+    <input type='text' placeholder="Zip Code">
+    <br>
+  <div <label for="Email">Provide your email address:</label>
+    <input type='text' placeholder=' '>
+    <br>
+
+    <span>Which burger would you like?</span>
+    <br>
+    <input type="checkbox" name="Burger" id="Cheese Burger" value="Cheese Burger">
+    <label for="Cheese Burger">Cheese Burger <b>$3.50</b></label>
+    <input type="checkbox" name="Burger" id="Bacon Burger" value="Bacon Burger">
+    <label for="Bacon Burger">Bacon Burger <b>$4.50</b></label>
+    <input type="checkbox" name="Burger" id="Veggie Burger" value="Veggie Burger">
+    <label for="Veggie Burger">Veggie Burger <b>$5.50</b></label>
+   
+
+      <div <label for="Card">Credit Card Number:</label>
+        <input type='text' placeholder='xxxx xxxx xxxx xxxx'>
+        <label for="Exp">Expiration Date:</label>
+        <input type='text' placeholder='xxxx'>
+        <br>
+        <label for="CVV">CVV:</label>
+        <input type='text' placeholder='xxx'>
+        <br><br>
+    <input class="btn-sub" type='submit' value='Submit'>
+  </form>
+<!-- Add your restaurant order form above -->
+</main>
+
+<aside role='complementary'>
+  <h2>Contact Us</h2>
+  <p>You can reach us at +1 (608) 588-0879, if you have any additional questions!</p>
+</aside>
+
+<footer role='contentinfo'>
+  <h2>About Us</h2>
+  <p>Burger-a-licious makes the best burger in the world!</p>
+</footer>
+
+</body>
+</html>
